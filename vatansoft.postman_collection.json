@@ -1,0 +1,194 @@
+{
+	"info": {
+		"_postman_id": "936f0b05-60fd-4668-86b7-6bcbcebcf3df",
+		"name": "vatansoft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://vatansoft.test/user/insert",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Key",
+						"value": "$xv1623tty",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"oguz\",\n    \"email\": \"oguz139@gmail.com\",\n    \"password\": 123\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://vatansoft.test/user/insert",
+					"protocol": "http",
+					"host": [
+						"vatansoft",
+						"test"
+					],
+					"path": [
+						"user",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://vatansoft.test/user/list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Key",
+						"value": "$xv1623tty",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://vatansoft.test/user/list",
+					"protocol": "http",
+					"host": [
+						"vatansoft",
+						"test"
+					],
+					"path": [
+						"user",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://vatansoft.test/user/update/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Key",
+						"value": "$xv1623tty",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"oguz\",\n    \"email\": \"oguz139@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://vatansoft.test/user/update/1",
+					"protocol": "http",
+					"host": [
+						"vatansoft",
+						"test"
+					],
+					"path": [
+						"user",
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://vatansoft.test/user/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Key",
+						"value": "$xv1623tty",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://vatansoft.test/user/delete/1",
+					"protocol": "http",
+					"host": [
+						"vatansoft",
+						"test"
+					],
+					"path": [
+						"user",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://vatansoft.test/user/destroy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Key",
+						"value": "$xv1623tty",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://vatansoft.test/user/destroy",
+					"protocol": "http",
+					"host": [
+						"vatansoft",
+						"test"
+					],
+					"path": [
+						"user",
+						"destroy"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
