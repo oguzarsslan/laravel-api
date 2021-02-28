@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
@@ -122,6 +125,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ozMshVId52MRXW7zN9OmbDvB6m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -163,7 +167,7 @@
       <updated>1614285174523</updated>
       <workItem from="1614285177461" duration="58415000" />
       <workItem from="1614541219592" duration="99000" />
-      <workItem from="1614541328537" duration="1279000" />
+      <workItem from="1614541328537" duration="2112000" />
     </task>
     <servers />
   </component>
